@@ -32,7 +32,7 @@ function radioM(){
         }else{
             //idoso
             genero = 'idosa';
-            img.setAttribute('src','velha.jpg');
+            img.setAttribute('src','idosa.jpg');
         }
 
        res.innerHTML = `Detectamos ${genero} com idade de ${idade} anos`;
@@ -70,7 +70,7 @@ function radioH(){
     }else{
         //idoso
         genero = 'idoso';
-        img.setAttribute('src','velho.jpg');
+        img.setAttribute('src','idoso.jpg');
     }
 
        res.innerHTML = `Detectamos ${genero} com idade de ${idade} anos`;
